@@ -73,15 +73,15 @@ def creationTexture():
     global texterra,texsol,texlua,texceu,qobj,texmarte,texjup,texmercurio,texvenus,texsat,texurano,texnetuno
     texceu = readTexture('ceu.jpg')
     texsol = readTexture('sol.jpg')
-    texlua = readTexture('lua.jpg')
-    texterra = readTexture('terra.jpg')
-    texmarte = readTexture('marte.jpg')
-    texjup = readTexture('jupiter.jpg')
-    texmercurio = readTexture('mercurio.jpg')
-    texvenus = readTexture('venus.jpg')
-    texsat = readTexture('saturno.jpg')
-    texurano = readTexture('urano.jpg')
-    texnetuno = readTexture('netuno.jpg')
+    texlua = readTexture('/img/lua.jpg')
+    texterra = readTexture('/img/terra.jpg')
+    texmarte = readTexture('/img/marte.jpg')
+    texjup = readTexture('/img/jupiter.jpg')
+    texmercurio = readTexture('/img/mercurio.jpg')
+    texvenus = readTexture('/img/venus.jpg')
+    texsat = readTexture('/img/saturno.jpg')
+    texurano = readTexture('/img/urano.jpg')
+    texnetuno = readTexture('/img/netuno.jpg')
     
 #Position of view
 def positionView():
